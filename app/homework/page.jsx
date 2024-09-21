@@ -53,7 +53,7 @@ const data = [
 
 const Page = () => {
   return (
-    <div className="m-0 p-10 pt-[100px] md:p-10 lg:p-20 lg:pt-[102px] md:pt-[102px] md:ml-[270px]">
+    <div className="m-0 p-4 pt-[100px] md:p-10 lg:p-20 lg:pt-[102px] md:pt-[102px] md:ml-[270px]">
       <CustomTable data={data} columns={columns} />
     </div>
   );
